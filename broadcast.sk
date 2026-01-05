@@ -1,0 +1,9 @@
+options:
+    prefix: &c[&bBROADCAST&c]&e
+command /broadcast <text>:
+    aliases: bc
+    permission: skript.broadcast
+    permission message: No permission
+    trigger:
+        broadcast "{@prefix} %arg-1%"
+        play sound "entity.experience_orb.pickup" with volume 0.5 to all players
