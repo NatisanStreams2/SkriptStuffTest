@@ -1,0 +1,8 @@
+command /clearchat:
+    aliases: cc 
+    permission: skript.clearchat
+    permission message: No permission
+    trigger:
+        loop 100 times:
+            send ""
+        send "&cChat has been cleared by &e%player%"
